@@ -101,3 +101,52 @@ header img{
     background-color: #14BA9C;
 }
 
+section{
+    width: 95%;
+    max-width: 1800px;
+    margin:auto;
+}
+
+.booking input{
+    background-color: #EFE4CE;
+    border-color: #ADA6A2;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1.3rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.booking input[type="submit"]{
+  background-color: #14BA9C;
+  border-style: none;
+  color: #EFE4CE; 
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.booking form{
+    display: flex;
+    gap:0.5rem;
+}
+
+.card{
+    background-color: #FAF9EF;
+    border-radius: 1rem 1rem;
+}
+
+.card-vertical{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-horizontal{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
